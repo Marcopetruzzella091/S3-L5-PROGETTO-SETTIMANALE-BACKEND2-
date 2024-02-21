@@ -8,6 +8,9 @@ import Articlepage from './Pages/Articlepage';
 import Authorpage from './Pages/Authorpage';
 import Userpage from './Pages/Userpage';
 import Searchpage from './Pages/Searchpage';
+import Categorypage from './Pages/Categorypage';
+import Singlecategorypage from './Pages/Singlecategorypage';
+
 
 
 function App() {
@@ -21,6 +24,8 @@ function App() {
           <Route path="/allUsers" element={ <Userpage/>} /> 
           <Route path="/authorpage/:id" element={ <Authorpage/>} /> 
           <Route path="/search/:id" element={ <Searchpage/>} /> 
+          <Route path="/category" element={ <Categorypage/>} /> 
+          <Route path="/singlecategory/:id" element={ <Singlecategorypage/>} /> 
            
         </Routes>
      

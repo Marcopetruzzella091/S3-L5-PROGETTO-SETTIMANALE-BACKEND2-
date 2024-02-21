@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom'
 import Spinner from 'react-bootstrap/Spinner';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import { useParams } from 'react-router-dom';
 import ListGroup from 'react-bootstrap/ListGroup';
@@ -18,7 +17,7 @@ export default function Searchpage() {
     const [media, setMedia] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
-    const [image, setimage] = useState("");
+
     const { id } = useParams();
   
     const navigate = useNavigate()

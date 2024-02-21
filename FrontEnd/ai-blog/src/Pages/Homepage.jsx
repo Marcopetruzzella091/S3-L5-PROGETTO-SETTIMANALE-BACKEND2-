@@ -13,7 +13,7 @@ export default function Homepage() {
   const [media, setMedia] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [image, setimage] = useState("");
+
 
   const navigate = useNavigate()
 

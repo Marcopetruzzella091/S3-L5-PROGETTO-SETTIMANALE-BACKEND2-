@@ -1,2 +1,5 @@
 .toplogo{width: 50px;}
 .linkstyle{text-decoration: underline; color: blue;cursor: pointer;}
+html{font-family: 'Courier New', Courier, monospace;}
+.catcard{width: 30% !important}
+.catcardit{width: 30% !important ; padding: 10px; margin: 10px;}
