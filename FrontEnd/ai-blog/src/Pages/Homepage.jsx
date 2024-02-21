@@ -14,6 +14,7 @@ export default function Homepage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [image, setimage] = useState("");
+
   const navigate = useNavigate()
 
 
